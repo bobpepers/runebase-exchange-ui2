@@ -1,0 +1,1040 @@
+.dashboardOrderBookTitle {
+ padding: 12px;
+ border: 1px solid #000;
+ background: #585AFA;
+ text-align: center;
+ width: 300;
+}
+
+a {
+ color: #4183c4 !important;
+}
+
+.SELLORDER{
+  box-shadow: inset 8px 0 10px -6px orange, inset -8px 0 10px -6px orange;
+}
+
+.xOrder{
+ cursor: pointer;
+ position: absolute;
+ right: 15px;
+ top: 15px;
+}
+
+.cancelIconRed{
+ color: red;
+}
+
+.cancelIconRed:hover{
+ color: orange;
+}
+
+.xOverflow{
+  overflow-x: hidden;
+}
+
+.buttonCell{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.buttonCell button{
+    width: 100%;
+}
+
+.gridLabelContainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sliderAmount{
+    padding: 15px 30px 0 30px;
+}
+
+.listInfo{
+    font-weight: bold;
+}
+
+.spacingOrdersLabel{
+    margin-top: 15px;
+}
+
+.filledDivider{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.messageStyle{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+}
+.fat{
+ font-weight: 900;
+}
+
+.buyButton{
+    width: 100%;
+}
+
+.inputOrderSpacing{
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.CONFIRMED{
+  box-shadow: inset 8px 0 10px -6px green, inset -8px 0 10px -6px green;
+}
+
+.myTradeContainer{
+ text-align: center;
+}
+
+.sold{
+ color: darkorange;
+}
+
+.bought{
+ color: blue;
+}
+
+.inputWidth input{
+ width: 100%;
+ height: 40px;
+ font-size: 16px;
+}
+
+.inputLabels{
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ line-height: 2;
+}
+
+.verticalTextButton{
+ vertical-align: middle !important;
+ align-items: center;
+ display: inline-block;
+ line-height: 1px !important;
+}
+
+.leftPadMidBut{
+  margin-left: 10px;
+}
+
+.rightPadMidBut{
+  margin-right: 10px;
+}
+
+.noMargin{
+  margin: 0 !important;
+}
+
+.dropdown-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dropdown-container .dropdown-btn {
+  width: 100%;
+  border-radius: 3px;
+  background: #eee;
+  border: none;
+  text-align: left;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown-container .dropdown-btn:focus {
+  background: #e6e6e6;
+}
+
+.dropdown-container .arrow {
+  position: relative;
+}
+
+.dropdown-container .arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+.dropdown-container .dropdown-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+  height: 100%;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  z-index: 9;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+.dropdown-container .dropdown-list .option {
+  box-shadow: inset 8px 0 10px -6px blue, inset -8px 0 10px -6px blue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-container .dropdown-list .option:hover {
+  color: white;
+  background: #4db8ff;
+}
+
+.MarketBalanceActive{
+ color: #585AFA;
+ font-weight: 900;
+}
+
+.dashboardOrderBook{
+ border: 1px solid #000 !important;
+ border-radius: 4px !important;
+ background: #F9F9F9 !important;
+ text-align: center;
+}
+
+.dashboardOrderBookTitle{
+ padding: 12px !important;
+ border: 1px solid #000 !important;
+ background: #585AFA !important;
+ text-align: center;
+}
+
+.dashboardActionsSort{
+ vertical-align: middle;
+ padding: 12px;
+}
+
+.dashboardOrderBookWrapper{
+ margin-bottom: 12px;
+}
+
+.marginTopBot{
+ margin-top: 12px;
+ margin-bottom: 12px
+}
+
+.DEPOSITEXCHANGE{
+ color: blue;
+}
+
+.WITHDRAWEXCHANGE{
+ color: darkorange;
+}
+
+.addressBookSelection {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border: solid 1px #555;
+  border-radius: 2px;
+  transition: all .3s;
+  box-sizing:content-box;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection:hover {
+  background: #ececec;
+}
+
+.addressBookSelection .heading{
+  height:26px;
+  overflow-x:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  width: 100%;
+}
+
+.addressBookSelection .heading{
+  display:block;
+  padding:5px 5px 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection .heading span {
+  display: inline-block;
+  padding:5px 5px 6px 10px;
+  margin:-5px 0 0 0;
+  width: 10px;
+  float: right;
+  border-left: solid 1px #b3b3b3;
+  text-align: right;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection ul {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: -1px;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: solid 1px #555;
+  border-radius: 2px;
+  list-style: none;
+  background:#fff;
+  z-index: 999999999;
+  width: 100%;
+}
+
+.addressBookSelection ul li {
+  display: block;
+  padding: 5px;
+  box-sizing: content-box;
+  cursor: pointer;
+  transition: all .3s;
+  border-width: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection ul li:nth-child(odd) {
+  background: #e3e3de;
+  z-index: 10;
+}
+
+.addressBookSelection ul li.active,
+.addressBookSelection ul li:hover {
+  background: #d3e3f3;
+  border-left: solid 3px #506985;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .1);
+  z-index: 10;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  &.open>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-toggle {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px dashed;
+      border-top: 4px solid\9;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+    }
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+    li {
+      cursor: pointer;
+      :hover {
+        background: #ddd;
+      }
+      & > a {
+        display: block;
+        padding: 5px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+li {
+  z-index: 50;
+}
+
+.BUYORDER{
+  box-shadow: inset 8px 0 10px -6px blue, inset -8px 0 10px -6px blue !important;
+}
+
+.root{
+ box-shadow: inset -8px 0 10px -6px black;
+}
+
+.textCenter{
+ text-align: center;
+}
+
+.fullWidth{
+ width: 100%;
+}
+
+.fullWidth img {
+ width: 50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.marketCard {
+ padding-bottom: 5px;
+ cursor: pointer;
+}
+
+.marketCard:hover {
+ box-shadow: inset 8px 0 10px -6px blue, inset -8px 0 10px -6px blue !important;
+}
+
+.activeCard{
+ box-shadow: inset 8px 0 10px -6px blue, inset -8px 0 10px -6px blue !important;
+}
+
+.like-table {
+ display: table;
+ height: 100%;
+ width: 100%;
+}
+
+.like-table-row {
+  display: table-row
+}
+
+.like-table-cell {
+  display: table-cell
+}
+
+.valign-middle {
+  vertical-align: middle
+}
+
+.positiveChange{
+ color: green;
+}
+
+.negativeChange{
+ color: red;
+}
+
+.fat{
+ font-weight: 900 !important;
+}
+
+.underline{
+ text-decoration: underline;
+}
+
+.react-swipeable-view-container > div[aria-hidden="false"] {
+    height: 100%;
+}
+
+.react-swipeable-view-container > div[aria-hidden="true"] {
+    height: 0;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.ACTIVE {
+  box-shadow: inset 8px 0 10px -6px green !important;
+}
+
+.PENDING {
+  box-shadow: inset 8px 0 10px -6px saddlebrown !important;
+}
+
+.CANCELED {
+  box-shadow: inset 8px 0 10px -6px red !important;
+}
+
+.PENDINGCANCEL {
+  box-shadow: inset 8px 0 10px -6px darkorange !important;
+}
+
+.FULFILLED {
+  box-shadow: inset 8px 0 10px -6px midnightblue !important;
+}
+
+.fullWidth{
+ width: 100%;
+}
+
+.fullwidth img {
+ width: 45px !important;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.inheritHeight {
+  height: inherit;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+i.huge.icon, i.huge.icons{
+  font-size: 50px;
+}
+
+.activeIcon{
+  font-size: 50px;
+  color: green;
+}
+
+.cancelIcon{
+  font-size: 50px;
+  color: green;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.ordersRoundBox{
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+}
+
+.ordersPropertyLabel{
+  border-bottom: 1px solid black;
+}
+
+.ordersPropertyContent{
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.filledDivider{
+  width: 50%;
+  height: 1px;
+  background-color: black;
+  margin: auto;
+}
+
+.spacingOrderBook{
+  margin-top: 15px;
+}
+
+.verticalCenter{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  height: 100%;
+}
+
+.SELLORDERCOLOR{
+ color: darkorange !important;
+}
+
+.BUYORDERCOLOR{
+ color: blue !important;
+}
+
+.PENDINGCOLOR{
+ color: saddlebrown !important;
+}
+
+.ACTIVECOLOR{
+ color: green !important;
+}
+
+.CONFIRMEDCOLOR{
+ color: green !important;
+}
+
+.saddleBrown{
+ color: saddlebrown !important;
+}
+
+.darkOrange{
+ color: darkorange !important;
+}
+
+.CONFIRMED{
+  box-shadow: inset 8px 0 10px -6px green, inset -8px 0 10px -6px green;
+}
+
+.FAIL{
+  box-shadow: inset 8px 0 10px -6px red, inset -8px 0 10px -6px red;
+}
+
+.FAILCOLOR{
+  color: red !important;
+}
+
+.myTradeContainer{
+ text-align: center;
+}
+
+.sold{
+ color: darkorange !important;
+}
+
+.bought{
+ color: blue !important;
+}
+
+.breakWord{
+ word-wrap: break-word !important;
+}
+
+.dashboardOrderBookTitle {
+ padding: 12px;
+ border: 1px solid #000;
+ background: #585AFA;
+ text-align: center;
+ width: 300;
+}
+
+.SELLORDER{
+  box-shadow: inset 8px 0 10px -6px orange, inset -8px 0 10px -6px orange;
+}
+
+.xOrder{
+ cursor: pointer;
+ position: absolute;
+ right: 15px;
+ top: 15px;
+}
+
+.cancelIconRed{
+ color: red;
+}
+
+.cancelIconRed:hover{
+ color: orange;
+}
+
+.xOverflow{
+  overflow-x: hidden;
+}
+
+.buttonCell{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.buttonCell button{
+    width: 100%;
+}
+
+.gridLabelContainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sliderAmount{
+    padding: 15px 30px 0 30px;
+}
+
+.listInfo{
+    font-weight: bold;
+}
+
+.spacingOrdersLabel{
+    margin-top: 15px;
+}
+
+.filledDivider{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.messageStyle{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.fat{
+ font-weight: 900;
+}
+
+.buyButton{
+    width: 100%;
+}
+
+.inputOrderSpacing{
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.CONFIRMED{
+  box-shadow: inset 8px 0 10px -6px green, inset -8px 0 10px -6px green;
+}
+
+.myTradeContainer{
+ text-align: center;
+}
+
+.sold{
+ color: red;
+}
+
+.bought{
+ color: green;
+}
+
+.inputWidth input{
+ width: 100%;
+ height: 40px;
+ font-size: 16px;
+}
+
+.inputLabels{
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ line-height: 2;
+}
+
+.addressBookSelection {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border: solid 1px #555;
+  border-radius: 2px;
+  transition: all .3s;
+  box-sizing:content-box;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection:hover {
+  background: #ececec;
+}
+
+.addressBookSelection .heading{
+  height:26px;
+  overflow-x:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  width: 100%;
+}
+
+.addressBookSelection .heading{
+  display:block;
+  padding:5px 5px 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection .heading span {
+  display: inline-block;
+  padding:5px 5px 6px 10px;
+  margin:-5px 0 0 0;
+  width: 10px;
+  float: right;
+  border-left: solid 1px #b3b3b3;
+  text-align: right;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection ul {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: -1px;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: solid 1px #555;
+  border-radius: 2px;
+  list-style: none;
+  background:#fff;
+  z-index: 999999999;
+  width: 100%;
+}
+
+.addressBookSelection ul li {
+  display: block;
+  padding: 5px;
+  box-sizing: content-box;
+  cursor: pointer;
+  transition: all .3s;
+  border-width: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.addressBookSelection ul li:nth-child(odd) {
+  background: #e3e3de;
+  z-index: 10;
+}
+
+.addressBookSelection ul li.active,
+.addressBookSelection ul li:hover {
+  background: #d3e3f3;
+  border-left: solid 3px #506985;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .1);
+  z-index: 10;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  &.open>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-toggle {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px dashed;
+      border-top: 4px solid\9;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+    }
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+    li {
+      cursor: pointer;
+      :hover {
+        background: #ddd;
+      }
+      & > a {
+        display: block;
+        padding: 5px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+li {
+  z-index: 50;
+}
+
+.dropdown-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dropdown-container .dropdown-btn {
+  width: 100%;
+  border-radius: 3px;
+  background: #eee;
+  border: none;
+  text-align: left;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown-container .dropdown-btn:focus {
+  background: #e6e6e6;
+}
+
+.dropdown-container .arrow {
+  position: relative;
+}
+
+.dropdown-container .arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+.dropdown-container .dropdown-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+  height: 100%;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  z-index: 9;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+.dropdown-container .dropdown-list .option {
+  box-shadow: inset 8px 0 10px -6px blue, inset -8px 0 10px -6px blue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-container .dropdown-list .option:hover {
+  color: white;
+  background: #4db8ff;
+}
+
+.pulsate {animation:filter 12s infinite;
+    fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;}
+
+@keyframes filter {
+    0% {-webkit-filter: drop-shadow( -.75px 0px 6px #31eefd );
+                filter: drop-shadow( -.75px 0px 6px #31eefd ); stroke:#31eefd;}
+   22% {-webkit-filter: drop-shadow( -.75px 0px 6px #1d85bb );
+                filter: drop-shadow( -.75px 0px 6px #1d85bb ); stroke:#1d85bb;} /* end blue */
+
+   42% {-webkit-filter: drop-shadow( -.75px 0px 6px #884173 );
+                filter: drop-shadow( -.75px 0px 6px #884173 ); stroke:#884173;}
+   62% {-webkit-filter: drop-shadow( -.75px 0px 6px #ff0071 );
+                filter: drop-shadow( -.75px 0px 6px #ff0071 ); stroke:#ff0071;} /* end magenta */
+   82% {-webkit-filter: drop-shadow( -.75px 0px 6px #009997 );
+                filter: drop-shadow( -.75px 0px 6px #009997 ); stroke:#009997;}
+   92% {-webkit-filter: drop-shadow( -.75px 0px 6px #92ffd7 );
+                filter: drop-shadow( -.75px 0px 6px #92ffd7 ); stroke:#92ffd7;} /* end green */
+  100% {-webkit-filter: drop-shadow( -.75px 0px 6px #31eefd );
+                filter: drop-shadow( -.75px 0px 6px #31eefd ); stroke:#31eefd;}
+}
+
+.depositButton {
+  width: 100%;
+  display: block;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-50%) translateX(0%);
+  -webkit-transform: rotate(-90deg) translate(-50%) translateX(0%);
+  -moz-transform: rotate(-90deg) translate(-50%) translateX(0%);
+  -o-transform: rotate(-90deg) translate(-50%) translateX(0%);
+  -ms-transform: rotate(-90deg) translate(-50%) translateX(0%);
+  margin-top: -50%;
+  white-space: nowrap;
+}
+
+.withdrawButton {
+  width: 100%;
+  display: block;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-50%);
+  -webkit-transform: rotate(-90deg) translate(-50%);
+  -moz-transform: rotate(-90deg) translate(-50%);
+  -o-transform: rotate(-90deg) translate(-50%);
+  -ms-transform: rotate(-90deg) translate(-50%);
+  margin-top: -50%;
+  white-space: nowrap;
+}
+
+.rotation-wrapper-outer {
+  display: table;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  position: relative;
+  left: 50%;
+}
+.rotation-wrapper-inner {
+  text-align:center;
+  padding: 50% 0;
+  height: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.positionbutton {
+  position:relative;
+}
