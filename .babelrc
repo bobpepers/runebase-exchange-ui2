@@ -1,0 +1,21 @@
+{
+  "presets": [
+        ["@babel/preset-env", { modules: 'commonjs' }],
+        "@babel/preset-react"
+    ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-class-properties",
+    [ "react-intl", {
+        "messagesDir": "build/messages"
+    }],
+    "babel-plugin-styled-components",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "constants":"./src/constants"
+      }
+    }]
+  ]
+}
